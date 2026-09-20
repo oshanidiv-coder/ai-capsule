@@ -1,0 +1,15 @@
+.env
+
+**/.env
+node_modules/
+
+**/node_modules/
+dist/
+
+**/dist/
+
+backend/uploads/*
+
+backend/aicapsule.db
+
+backend/aicapsule-backup.db
