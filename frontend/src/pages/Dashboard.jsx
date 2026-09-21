@@ -259,7 +259,7 @@ const confirmed = window.confirm("Are you sure you want to delete this prompt?")
 if (!confirmed) return; 
 try {
 
- const response = await fetch("/api/capsules"+id, {
+ const response = await fetch("/api/capsules/"+id, {
     method: "DELETE",
     credentials: "include"
 
