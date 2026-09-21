@@ -4,7 +4,7 @@ function Login() {
 
     const loginWithGitHub = () => {
         window.location.href =
-            "http://localhost:5000/auth/github";
+            "/auth/github";
     };
 
     return (
